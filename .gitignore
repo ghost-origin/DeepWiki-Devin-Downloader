@@ -1,0 +1,8 @@
+# 拉取的 wiki 产物全部忽略（内容可再生、随索引变化，不入库）
+# 仅保留 wiki/.gitkeep 作为目录占位
+wiki/*
+!wiki/.gitkeep
+
+# Node 常规忽略
+node_modules/
+*.log
